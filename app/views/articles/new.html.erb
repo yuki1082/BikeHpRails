@@ -1,0 +1,7 @@
+<% @page_title = "記事の新規登録" %>
+<h2><%= @page_title %></h2>
+
+<%= form_for @article do |f| %>
+	<%= render "./shared/form", form: f %>
+	<p><%= f.submit %></p>
+<% end %>

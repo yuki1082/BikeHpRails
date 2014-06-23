@@ -1,0 +1,14 @@
+<div id = "submenu">
+	<h1>
+		<a href="#">
+			<%= image_tag("logo.gif") %>
+		</a>
+	</h1>
+	<% if Article.sidebar_article(5, @current_user) %>
+	<% Article.sidebar_article(5, @current_user).each do |article| %>
+	<p><%= link_to article.title, article_path(article) %></p>
+	<% end %>
+	<% else %>
+	<p>記事がありません</p>
+	<% end %> 
+</div>

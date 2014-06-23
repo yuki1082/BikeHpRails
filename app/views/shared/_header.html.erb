@@ -1,0 +1,7 @@
+<div id="header">
+	<% if @current_user %> 
+	<p>ようこそ<%= @current_user.name %>さん |<%= link_to "記事一覧", articles_path%>  |   <%= link_to "Home", root_path%>  |  <%= link_to "Sign Out", logout_path %></p> 
+	<% else %>
+	<p>  <%= link_to "Sign in with Twitter", "/auth/facebook" %> </p>
+	<% end %>
+</div>

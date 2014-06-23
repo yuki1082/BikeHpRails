@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BikeHp</title>
+	<%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= stylesheet_link_tag    "normailze", :media => "all" %>
+  <%= stylesheet_link_tag    "base", :media => "all" %>
+  <%= stylesheet_link_tag     "table", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= javascript_include_tag "main" %>
+
+  <%= csrf_meta_tags %>
+  </head>
+  <body>
+  <div id="container">
+    <%= render "shared/header" %>    
+    <div id="wrapper">
+      <%= render "shared/sidebar" %>
+      <%= yield %>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,3 @@
+errors: 
+ messages:
+  expired_at_too_old: は掲載開始日より新しくしてください

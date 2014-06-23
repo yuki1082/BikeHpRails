@@ -1,0 +1,16 @@
+table.article_table th{
+ width: 900px;
+ padding: 5px;
+ text-align: center; 
+ background-color: #ccccee;
+}
+
+table.article_table td{
+ width: 900px;
+ padding: 5px;
+ text-align: center; 
+ background-color: #eeeeff;
+ border: dotted;
+}
+
+
