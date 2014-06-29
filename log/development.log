@@ -79599,3 +79599,3521 @@ Served asset /logo.gif - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-24 05:20:22 +0900
 Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-29 23:12:07 +0900
+Connecting to database specified by database.yml
+Processing by TopController#index as HTML
+  Rendered top/index.html.erb within layouts/application (3.1ms)
+Compiled jquery.js  (1ms)  (pid 4570)
+Compiled jquery_ujs.js  (0ms)  (pid 4570)
+Compiled application.js  (39ms)  (pid 4570)
+  Rendered shared/_header.html.erb (0.4ms)
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT "articles".* FROM "articles" WHERE "articles"."member_only" = 'f' ORDER BY released_at DESC LIMIT 5[0m
+  Rendered shared/_sidebar.html.erb (69.7ms)
+Completed 200 OK in 147.3ms (Views: 145.1ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-29 23:12:07 +0900
+Served asset /application.css - 200 OK (6ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-06-29 23:12:07 +0900
+Served asset /articles.css - 200 OK (0ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2014-06-29 23:12:07 +0900
+Served asset /base.css - 200 OK (3ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-06-29 23:12:07 +0900
+Served asset /sessions.css - 200 OK (2ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-29 23:12:07 +0900
+Served asset /normalize.css - 200 OK (1ms)
+
+
+Started GET "/assets/table.css?body=1" for 127.0.0.1 at 2014-06-29 23:12:07 +0900
+Served asset /table.css - 200 OK (1ms)
+
+
+Started GET "/assets/top.css?body=1" for 127.0.0.1 at 2014-06-29 23:12:07 +0900
+Served asset /top.css - 200 OK (2ms)
+
+
+Started GET "/assets/normailze.css" for 127.0.0.1 at 2014-06-29 23:12:07 +0900
+Served asset /normailze.css - 404 Not Found (1ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/normailze.css"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-29 23:12:07 +0900
+Served asset /jquery.js - 200 OK (25ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-29 23:12:07 +0900
+Served asset /jquery_ujs.js - 200 OK (1ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-29 23:12:07 +0900
+Served asset /main.js - 200 OK (2ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-06-29 23:12:07 +0900
+Served asset /articles.js - 200 OK (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-06-29 23:12:07 +0900
+Served asset /sessions.js - 200 OK (1ms)
+
+
+Started GET "/assets/top.js?body=1" for 127.0.0.1 at 2014-06-29 23:12:07 +0900
+Served asset /top.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-29 23:12:07 +0900
+Served asset /application.js - 200 OK (5ms)
+
+
+Started GET "/assets/logo.gif" for 127.0.0.1 at 2014-06-29 23:12:07 +0900
+Served asset /logo.gif - 200 OK (1ms)
+
+
+Started GET "/assets/01.jpg" for 127.0.0.1 at 2014-06-29 23:12:07 +0900
+Served asset /01.jpg - 200 OK (1ms)
+
+
+Started GET "/assets/02.jpg" for 127.0.0.1 at 2014-06-29 23:12:07 +0900
+Served asset /02.jpg - 200 OK (2ms)
+
+
+Started GET "/assets/03.jpg" for 127.0.0.1 at 2014-06-29 23:12:07 +0900
+Served asset /03.jpg - 200 OK (4ms)
+
+
+Started GET "/assets/04.jpg" for 127.0.0.1 at 2014-06-29 23:12:07 +0900
+Served asset /04.jpg - 200 OK (1ms)
+
+
+Started GET "/assets/05.jpg" for 127.0.0.1 at 2014-06-29 23:12:07 +0900
+Served asset /05.jpg - 200 OK (1ms)
+
+
+Started GET "/assets/06.jpg" for 127.0.0.1 at 2014-06-29 23:12:07 +0900
+Served asset /06.jpg - 200 OK (4ms)
+
+
+Started GET "/assets/info01.png" for 127.0.0.1 at 2014-06-29 23:12:07 +0900
+Served asset /info01.png - 200 OK (3ms)
+
+
+Started GET "/assets/info02.png" for 127.0.0.1 at 2014-06-29 23:12:07 +0900
+Served asset /info02.png - 200 OK (1ms)
+
+
+Started GET "/assets/info03.png" for 127.0.0.1 at 2014-06-29 23:12:07 +0900
+Served asset /info03.png - 200 OK (1ms)
+
+
+Started GET "/assets/info04.png" for 127.0.0.1 at 2014-06-29 23:12:07 +0900
+Served asset /info04.png - 200 OK (0ms)
+
+
+Started GET "/assets/info05.png" for 127.0.0.1 at 2014-06-29 23:12:07 +0900
+Served asset /info05.png - 200 OK (0ms)
+
+
+Started GET "/assets/info09.png" for 127.0.0.1 at 2014-06-29 23:12:07 +0900
+Served asset /info09.png - 200 OK (1ms)
+
+
+Started GET "/assets/info08.png" for 127.0.0.1 at 2014-06-29 23:12:07 +0900
+Served asset /info08.png - 200 OK (1ms)
+
+
+Started GET "/assets/bg_body.gif" for 127.0.0.1 at 2014-06-29 23:12:07 +0900
+Served asset /bg_body.gif - 200 OK (0ms)
+
+
+Started GET "/assets/info06.png" for 127.0.0.1 at 2014-06-29 23:12:07 +0900
+Served asset /info06.png - 200 OK (0ms)
+
+
+Started GET "/assets/info07.png" for 127.0.0.1 at 2014-06-29 23:12:07 +0900
+Served asset /info07.png - 200 OK (1ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2014-06-29 23:12:11 +0900
+
+
+Started GET "/auth/facebook/callback?code=AQBNKAB17x3Fe32VGSk5JiklT-H5SJHGAcqIlDYVJG1mFFZVQknNE2tohOhMCmJQmgwz2B-bk_mLFPDpkOsNOYI53HAhqO7ALqx0E_vA9cZ_rVn3UdlK0GxIbJpBOBj93GtVGRnsyTHiBcyxSXuMB0q9VccdbTh90HbEo0lFQX5Ld-ggaq4UCArlPEMjklSPpxR2y9yRdEwL0UPQcXLmFWihnlXaBY4LdL7ava9t8ra9tUi_Nkpxd1GxGzrn8Plvzx-FGMz042_gH4pKJ2hNO0ddnRmjJwJrYU6PE5UQGW4MkowGYbbS0sLe0oAY44a5PIk&state=c38f8b5ebb0fd59ebfc5915707f31e9d7aa72a68e456987b" for 127.0.0.1 at 2014-06-29 23:12:11 +0900
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQBNKAB17x3Fe32VGSk5JiklT-H5SJHGAcqIlDYVJG1mFFZVQknNE2tohOhMCmJQmgwz2B-bk_mLFPDpkOsNOYI53HAhqO7ALqx0E_vA9cZ_rVn3UdlK0GxIbJpBOBj93GtVGRnsyTHiBcyxSXuMB0q9VccdbTh90HbEo0lFQX5Ld-ggaq4UCArlPEMjklSPpxR2y9yRdEwL0UPQcXLmFWihnlXaBY4LdL7ava9t8ra9tUi_Nkpxd1GxGzrn8Plvzx-FGMz042_gH4pKJ2hNO0ddnRmjJwJrYU6PE5UQGW4MkowGYbbS0sLe0oAY44a5PIk", "state"=>"c38f8b5ebb0fd59ebfc5915707f31e9d7aa72a68e456987b", "provider"=>"facebook"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."provider" = 'facebook' AND "users"."uid" = '1452691841646550' LIMIT 1
+Redirected to http://localhost:3000/
+Completed 302 Found in 6.3ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-29 23:12:13 +0900
+Processing by TopController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered top/index.html.erb within layouts/application (1.0ms)
+  Rendered shared/_header.html.erb (0.4ms)
+  [1m[35mArticle Load (0.1ms)[0m  SELECT "articles".* FROM "articles" ORDER BY released_at DESC LIMIT 5
+  Rendered shared/_sidebar.html.erb (1.1ms)
+Completed 200 OK in 9.0ms (Views: 8.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/normailze.css" for 127.0.0.1 at 2014-06-29 23:12:13 +0900
+Served asset /normailze.css - 404 Not Found (2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/normailze.css"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-29 23:12:13 +0900
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-29 23:12:13 +0900
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-06-29 23:12:13 +0900
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-06-29 23:12:13 +0900
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-29 23:12:13 +0900
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/top.js?body=1" for 127.0.0.1 at 2014-06-29 23:12:13 +0900
+Served asset /top.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-29 23:12:13 +0900
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/signout" for 127.0.0.1 at 2014-06-29 23:12:23 +0900
+Processing by SessionsController#destroy as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Redirected to http://localhost:3000/?notice=Signed+out%21
+Completed 302 Found in 1.1ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/?notice=Signed+out%21" for 127.0.0.1 at 2014-06-29 23:12:23 +0900
+Processing by TopController#index as HTML
+  Parameters: {"notice"=>"Signed out!"}
+  Rendered top/index.html.erb within layouts/application (1.1ms)
+  Rendered shared/_header.html.erb (0.0ms)
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles" WHERE "articles"."member_only" = 'f' ORDER BY released_at DESC LIMIT 5
+  Rendered shared/_sidebar.html.erb (1.3ms)
+Completed 200 OK in 8.6ms (Views: 8.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/normailze.css" for 127.0.0.1 at 2014-06-29 23:12:24 +0900
+Served asset /normailze.css - 404 Not Found (1ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/normailze.css"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-29 23:12:24 +0900
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-29 23:12:24 +0900
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-06-29 23:12:24 +0900
+Served asset /articles.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-29 23:12:24 +0900
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/top.js?body=1" for 127.0.0.1 at 2014-06-29 23:12:24 +0900
+Served asset /top.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-06-29 23:12:24 +0900
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-29 23:12:24 +0900
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2014-06-29 23:12:26 +0900
+
+
+Started GET "/auth/facebook/callback?code=AQDzj7zr7r9xNJEhxSy66pHnFt7-Pt_8bzTC8IBPlI1nTnfY57sZV9RM-1HeAbPV0Wkq0ImXtJYgu9I05d_YV4EhBZFkUOZpCnKfGXMkmu8cYxadC1dfTBuSg5lWU8woJVwL229uNwx3PHyOdpCZStLxvMhpL8zCRtbMVxG3umrKqFus7VEAY13H1IJ8GKLaFJWrOWus8nY-BcYrUyWmUvSt6WkbeFWZB7sS9Zm0rCUe1MIuQnT6sSXjV0KHyAEVq7m6NmvU1QupvmzhVXBX99cYofi499Xt-JbQlGzBmK0tvOEQ-d2Wq2HWlsbzdoE7W5Q&state=de3bd2bec3f9c318bd038dc979b80dcd2835206eee9812f2" for 127.0.0.1 at 2014-06-29 23:12:26 +0900
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQDzj7zr7r9xNJEhxSy66pHnFt7-Pt_8bzTC8IBPlI1nTnfY57sZV9RM-1HeAbPV0Wkq0ImXtJYgu9I05d_YV4EhBZFkUOZpCnKfGXMkmu8cYxadC1dfTBuSg5lWU8woJVwL229uNwx3PHyOdpCZStLxvMhpL8zCRtbMVxG3umrKqFus7VEAY13H1IJ8GKLaFJWrOWus8nY-BcYrUyWmUvSt6WkbeFWZB7sS9Zm0rCUe1MIuQnT6sSXjV0KHyAEVq7m6NmvU1QupvmzhVXBX99cYofi499Xt-JbQlGzBmK0tvOEQ-d2Wq2HWlsbzdoE7W5Q", "state"=>"de3bd2bec3f9c318bd038dc979b80dcd2835206eee9812f2", "provider"=>"facebook"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."provider" = 'facebook' AND "users"."uid" = '1452691841646550' LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 1.1ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-29 23:12:27 +0900
+Processing by TopController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered top/index.html.erb within layouts/application (1.0ms)
+  Rendered shared/_header.html.erb (0.4ms)
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT "articles".* FROM "articles" ORDER BY released_at DESC LIMIT 5[0m
+  Rendered shared/_sidebar.html.erb (1.4ms)
+Completed 200 OK in 9.6ms (Views: 9.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-29 23:12:27 +0900
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-29 23:12:27 +0900
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-06-29 23:12:27 +0900
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normailze.css" for 127.0.0.1 at 2014-06-29 23:12:27 +0900
+Served asset /normailze.css - 404 Not Found (1ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/normailze.css"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-06-29 23:12:27 +0900
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-29 23:12:27 +0900
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/top.js?body=1" for 127.0.0.1 at 2014-06-29 23:12:27 +0900
+Served asset /top.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-29 23:12:27 +0900
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/signout" for 127.0.0.1 at 2014-06-29 23:12:32 +0900
+Processing by SessionsController#destroy as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Redirected to http://localhost:3000/?notice=Signed+out%21
+Completed 302 Found in 1.0ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/?notice=Signed+out%21" for 127.0.0.1 at 2014-06-29 23:12:32 +0900
+Processing by TopController#index as HTML
+  Parameters: {"notice"=>"Signed out!"}
+  Rendered top/index.html.erb within layouts/application (1.1ms)
+  Rendered shared/_header.html.erb (0.0ms)
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT "articles".* FROM "articles" WHERE "articles"."member_only" = 'f' ORDER BY released_at DESC LIMIT 5[0m
+  Rendered shared/_sidebar.html.erb (1.3ms)
+Completed 200 OK in 8.5ms (Views: 8.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-29 23:12:32 +0900
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-29 23:12:32 +0900
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-06-29 23:12:32 +0900
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-29 23:12:32 +0900
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normailze.css" for 127.0.0.1 at 2014-06-29 23:12:32 +0900
+Served asset /normailze.css - 404 Not Found (1ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/normailze.css"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-06-29 23:12:32 +0900
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/top.js?body=1" for 127.0.0.1 at 2014-06-29 23:12:32 +0900
+Served asset /top.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-29 23:12:32 +0900
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2014-06-29 23:12:53 +0900
+
+
+Started GET "/auth/facebook/callback?code=AQBPvDCsgh7jjAFxq3TCGRP21DHiDRJ25TfhOelt9yG7ktSNxUAY7e2X33J05GlmdHPG5Jo77ZReQNRVufv5JVPtPi5f2usLW75NyJszbMvFMjNxXs6xuNrx75InSZB-pPAB4LSv9PUXKk6XTPoNRccvloh_9N4pm5o8_u4Ui8zz4EM7FESmeOFt-TjanLD_MS8GT0w_V15uIKpF4R6E-jE8qqho_1GpgnJuGdOdZ7Vu8Y2YeStlLyp4vjb9BkC-967y4Eth8oE2ErgrNhqBmBepHClunxlJaYMTs0MRswevxlO-nRw0h9NsClGxhN8jjSo&state=510fe9b0ef8c176d03eca4e56a6d87ae0a5f76b4042f5c69" for 127.0.0.1 at 2014-06-29 23:13:03 +0900
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQBPvDCsgh7jjAFxq3TCGRP21DHiDRJ25TfhOelt9yG7ktSNxUAY7e2X33J05GlmdHPG5Jo77ZReQNRVufv5JVPtPi5f2usLW75NyJszbMvFMjNxXs6xuNrx75InSZB-pPAB4LSv9PUXKk6XTPoNRccvloh_9N4pm5o8_u4Ui8zz4EM7FESmeOFt-TjanLD_MS8GT0w_V15uIKpF4R6E-jE8qqho_1GpgnJuGdOdZ7Vu8Y2YeStlLyp4vjb9BkC-967y4Eth8oE2ErgrNhqBmBepHClunxlJaYMTs0MRswevxlO-nRw0h9NsClGxhN8jjSo", "state"=>"510fe9b0ef8c176d03eca4e56a6d87ae0a5f76b4042f5c69", "provider"=>"facebook"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."provider" = 'facebook' AND "users"."uid" = '1452691841646550' LIMIT 1
+Redirected to http://localhost:3000/
+Completed 302 Found in 1.1ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-29 23:13:05 +0900
+Processing by TopController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered top/index.html.erb within layouts/application (1.1ms)
+  Rendered shared/_header.html.erb (0.4ms)
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles" ORDER BY released_at DESC LIMIT 5
+  Rendered shared/_sidebar.html.erb (1.4ms)
+Completed 200 OK in 10.7ms (Views: 9.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:05 +0900
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/normailze.css" for 127.0.0.1 at 2014-06-29 23:13:05 +0900
+Served asset /normailze.css - 404 Not Found (1ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/normailze.css"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:05 +0900
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:05 +0900
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:05 +0900
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:05 +0900
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/top.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:05 +0900
+Served asset /top.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:05 +0900
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-29 23:13:12 +0900
+Processing by TopController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered top/index.html.erb within layouts/application (1.0ms)
+  Rendered shared/_header.html.erb (0.4ms)
+  [1m[35mArticle Load (0.1ms)[0m  SELECT "articles".* FROM "articles" ORDER BY released_at DESC LIMIT 5
+  Rendered shared/_sidebar.html.erb (1.3ms)
+Completed 200 OK in 10.1ms (Views: 8.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:13 +0900
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:13 +0900
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normailze.css" for 127.0.0.1 at 2014-06-29 23:13:13 +0900
+Served asset /normailze.css - 404 Not Found (1ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/normailze.css"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:13 +0900
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:13 +0900
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:13 +0900
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/top.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:13 +0900
+Served asset /top.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:13 +0900
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2014-06-29 23:13:14 +0900
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "articles" 
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT "articles".* FROM "articles" ORDER BY released_at DESC[0m
+  Rendered articles/index.html.erb within layouts/application (85.1ms)
+  Rendered shared/_header.html.erb (0.7ms)
+  [1m[35mArticle Load (0.3ms)[0m  SELECT "articles".* FROM "articles" ORDER BY released_at DESC LIMIT 5
+  Rendered shared/_sidebar.html.erb (2.9ms)
+Completed 200 OK in 109.9ms (Views: 108.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:14 +0900
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:14 +0900
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:14 +0900
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:14 +0900
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:14 +0900
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normailze.css" for 127.0.0.1 at 2014-06-29 23:13:14 +0900
+Served asset /normailze.css - 404 Not Found (1ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/normailze.css"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/assets/top.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:14 +0900
+Served asset /top.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:14 +0900
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/articles/2" for 127.0.0.1 at 2014-06-29 23:13:18 +0900
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1  [["id", "2"]]
+  Rendered articles/show.html.erb within layouts/application (0.4ms)
+  Rendered shared/_header.html.erb (0.4ms)
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT "articles".* FROM "articles" ORDER BY released_at DESC LIMIT 5[0m
+  Rendered shared/_sidebar.html.erb (1.3ms)
+Completed 200 OK in 13.8ms (Views: 11.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/normailze.css" for 127.0.0.1 at 2014-06-29 23:13:18 +0900
+Served asset /normailze.css - 404 Not Found (1ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/normailze.css"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:18 +0900
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:18 +0900
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:18 +0900
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:18 +0900
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:18 +0900
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/top.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:18 +0900
+Served asset /top.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:19 +0900
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2014-06-29 23:13:20 +0900
+Processing by ArticlesController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "articles" [0m
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles" ORDER BY released_at DESC
+  Rendered articles/index.html.erb within layouts/application (4.4ms)
+  Rendered shared/_header.html.erb (0.3ms)
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT "articles".* FROM "articles" ORDER BY released_at DESC LIMIT 5[0m
+  Rendered shared/_sidebar.html.erb (1.0ms)
+Completed 200 OK in 13.8ms (Views: 11.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:20 +0900
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/normailze.css" for 127.0.0.1 at 2014-06-29 23:13:20 +0900
+Served asset /normailze.css - 404 Not Found (1ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/normailze.css"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:20 +0900
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:20 +0900
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:20 +0900
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:20 +0900
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/top.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:20 +0900
+Served asset /top.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:20 +0900
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/articles/3" for 127.0.0.1 at 2014-06-29 23:13:24 +0900
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mArticle Load (0.0ms)[0m  [1mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1[0m  [["id", "3"]]
+  Rendered articles/show.html.erb within layouts/application (0.0ms)
+  Rendered shared/_header.html.erb (0.4ms)
+  [1m[35mArticle Load (0.1ms)[0m  SELECT "articles".* FROM "articles" ORDER BY released_at DESC LIMIT 5
+  Rendered shared/_sidebar.html.erb (1.1ms)
+Completed 200 OK in 8.1ms (Views: 6.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/normailze.css" for 127.0.0.1 at 2014-06-29 23:13:24 +0900
+Served asset /normailze.css - 404 Not Found (1ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/normailze.css"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:24 +0900
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:24 +0900
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:24 +0900
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:24 +0900
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:24 +0900
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/top.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:24 +0900
+Served asset /top.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:24 +0900
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/articles/4" for 127.0.0.1 at 2014-06-29 23:13:25 +0900
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mArticle Load (0.1ms)[0m  SELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1  [["id", "4"]]
+  Rendered articles/show.html.erb within layouts/application (0.0ms)
+  Rendered shared/_header.html.erb (0.4ms)
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT "articles".* FROM "articles" ORDER BY released_at DESC LIMIT 5[0m
+  Rendered shared/_sidebar.html.erb (1.1ms)
+Completed 200 OK in 13.0ms (Views: 10.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/normailze.css" for 127.0.0.1 at 2014-06-29 23:13:25 +0900
+Served asset /normailze.css - 404 Not Found (1ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/normailze.css"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:25 +0900
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:25 +0900
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:25 +0900
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:25 +0900
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:25 +0900
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/top.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:25 +0900
+Served asset /top.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:25 +0900
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/articles/5" for 127.0.0.1 at 2014-06-29 23:13:26 +0900
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mArticle Load (0.0ms)[0m  [1mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1[0m  [["id", "5"]]
+  Rendered articles/show.html.erb within layouts/application (0.0ms)
+  Rendered shared/_header.html.erb (0.4ms)
+  [1m[35mArticle Load (0.1ms)[0m  SELECT "articles".* FROM "articles" ORDER BY released_at DESC LIMIT 5
+  Rendered shared/_sidebar.html.erb (1.1ms)
+Completed 200 OK in 8.5ms (Views: 7.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/normailze.css" for 127.0.0.1 at 2014-06-29 23:13:26 +0900
+Served asset /normailze.css - 404 Not Found (1ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/normailze.css"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:26 +0900
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:26 +0900
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:26 +0900
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:26 +0900
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:26 +0900
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/top.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:26 +0900
+Served asset /top.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:26 +0900
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2014-06-29 23:13:27 +0900
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "articles" 
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT "articles".* FROM "articles" ORDER BY released_at DESC[0m
+  Rendered articles/index.html.erb within layouts/application (4.5ms)
+  Rendered shared/_header.html.erb (0.3ms)
+  [1m[35mArticle Load (0.1ms)[0m  SELECT "articles".* FROM "articles" ORDER BY released_at DESC LIMIT 5
+  Rendered shared/_sidebar.html.erb (1.0ms)
+Completed 200 OK in 18.2ms (Views: 16.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/normailze.css" for 127.0.0.1 at 2014-06-29 23:13:27 +0900
+Served asset /normailze.css - 404 Not Found (1ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/normailze.css"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:27 +0900
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:27 +0900
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:27 +0900
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:27 +0900
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:27 +0900
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/top.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:27 +0900
+Served asset /top.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:27 +0900
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-29 23:13:28 +0900
+Processing by TopController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered top/index.html.erb within layouts/application (1.0ms)
+  Rendered shared/_header.html.erb (0.3ms)
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles" ORDER BY released_at DESC LIMIT 5
+  Rendered shared/_sidebar.html.erb (1.2ms)
+Completed 200 OK in 8.9ms (Views: 7.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:28 +0900
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:28 +0900
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:28 +0900
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:28 +0900
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/normailze.css" for 127.0.0.1 at 2014-06-29 23:13:28 +0900
+Served asset /normailze.css - 404 Not Found (1ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/normailze.css"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:28 +0900
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:28 +0900
+Served asset /application.js - 304 Not Modified (16ms)
+
+
+Started GET "/assets/top.js?body=1" for 127.0.0.1 at 2014-06-29 23:13:28 +0900
+Served asset /top.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-29 23:26:12 +0900
+Connecting to database specified by database.yml
+Processing by TopController#index as HTML
+  Rendered top/index.html.erb within layouts/application (14.3ms)
+  Rendered shared/_header.html.erb (0.4ms)
+  [1m[36mArticle Load (0.3ms)[0m  [1mSELECT "articles".* FROM "articles" WHERE "articles"."member_only" = 'f' ORDER BY released_at DESC LIMIT 5[0m
+  Rendered shared/_sidebar.html.erb (67.9ms)
+Completed 200 OK in 119.3ms (Views: 117.6ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-29 23:26:13 +0900
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2014-06-29 23:26:13 +0900
+Served asset /base.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-06-29 23:26:13 +0900
+Served asset /articles.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/table.css?body=1" for 127.0.0.1 at 2014-06-29 23:26:13 +0900
+Served asset /table.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-29 23:26:13 +0900
+Served asset /normalize.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-06-29 23:26:13 +0900
+Served asset /sessions.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/top.css?body=1" for 127.0.0.1 at 2014-06-29 23:26:13 +0900
+Served asset /top.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normailze.css" for 127.0.0.1 at 2014-06-29 23:26:13 +0900
+Served asset /normailze.css - 404 Not Found (1ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/normailze.css"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-29 23:26:13 +0900
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-29 23:26:13 +0900
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-06-29 23:26:13 +0900
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-29 23:26:13 +0900
+Served asset /main.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-06-29 23:26:13 +0900
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/top.js?body=1" for 127.0.0.1 at 2014-06-29 23:26:13 +0900
+Served asset /top.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-29 23:26:13 +0900
+Served asset /application.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/logo.gif" for 127.0.0.1 at 2014-06-29 23:26:13 +0900
+Served asset /logo.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/01.jpg" for 127.0.0.1 at 2014-06-29 23:26:13 +0900
+Served asset /01.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/02.jpg" for 127.0.0.1 at 2014-06-29 23:26:13 +0900
+Served asset /02.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/04.jpg" for 127.0.0.1 at 2014-06-29 23:26:13 +0900
+Served asset /04.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/03.jpg" for 127.0.0.1 at 2014-06-29 23:26:13 +0900
+Served asset /03.jpg - 304 Not Modified (3ms)
+
+
+Started GET "/assets/05.jpg" for 127.0.0.1 at 2014-06-29 23:26:13 +0900
+Served asset /05.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/06.jpg" for 127.0.0.1 at 2014-06-29 23:26:13 +0900
+Served asset /06.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/info01.png" for 127.0.0.1 at 2014-06-29 23:26:13 +0900
+Served asset /info01.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/info02.png" for 127.0.0.1 at 2014-06-29 23:26:13 +0900
+Served asset /info02.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/info03.png" for 127.0.0.1 at 2014-06-29 23:26:13 +0900
+Served asset /info03.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/info09.png" for 127.0.0.1 at 2014-06-29 23:26:13 +0900
+Served asset /info09.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/info04.png" for 127.0.0.1 at 2014-06-29 23:26:13 +0900
+Served asset /info04.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/info05.png" for 127.0.0.1 at 2014-06-29 23:26:13 +0900
+Served asset /info05.png - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bg_body.gif" for 127.0.0.1 at 2014-06-29 23:26:13 +0900
+Served asset /bg_body.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/info08.png" for 127.0.0.1 at 2014-06-29 23:26:13 +0900
+Served asset /info08.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/info06.png" for 127.0.0.1 at 2014-06-29 23:26:13 +0900
+Served asset /info06.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/info07.png" for 127.0.0.1 at 2014-06-29 23:26:13 +0900
+Served asset /info07.png - 304 Not Modified (1ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2014-06-29 23:26:15 +0900
+
+
+Started GET "/auth/facebook/callback?code=AQAssIwzjs9z-yQc407nw8CJkBaA9J7909BSmtHupRDOvEeX9k0ARcxrlWDsAEOZhD06Y9sfTDCjOWo9M-_E8cxsKG0ABKXd91OaeAzZhx89o5F1dK2-qNBuXV7zoXl5ToH7hIZF8uQHfSLl_LmAzFcqw_yCYRrLxtudI6lO0muf-VzIT7VYzTZJ7iug41NUa1s6Fu8xQz90DJJh3jcs-j5L-DAmG7Fx-fB413gPRmqfZY5DbT8hQQcNng_L70r1MC5ccgxbs-WiesG8zzIuaPhwJ5R-DXo17bcZPwFJW3uDvujL0dlSg7NYwLo1bJ6j2gg&state=a6708052191083ec768a4b39d8569c22a629d029351ecc1f" for 127.0.0.1 at 2014-06-29 23:26:21 +0900
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQAssIwzjs9z-yQc407nw8CJkBaA9J7909BSmtHupRDOvEeX9k0ARcxrlWDsAEOZhD06Y9sfTDCjOWo9M-_E8cxsKG0ABKXd91OaeAzZhx89o5F1dK2-qNBuXV7zoXl5ToH7hIZF8uQHfSLl_LmAzFcqw_yCYRrLxtudI6lO0muf-VzIT7VYzTZJ7iug41NUa1s6Fu8xQz90DJJh3jcs-j5L-DAmG7Fx-fB413gPRmqfZY5DbT8hQQcNng_L70r1MC5ccgxbs-WiesG8zzIuaPhwJ5R-DXo17bcZPwFJW3uDvujL0dlSg7NYwLo1bJ6j2gg", "state"=>"a6708052191083ec768a4b39d8569c22a629d029351ecc1f", "provider"=>"facebook"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."provider" = 'facebook' AND "users"."uid" = '1452691841646550' LIMIT 1
+Redirected to http://localhost:3000/
+Completed 302 Found in 6.2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-29 23:26:23 +0900
+Processing by TopController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered top/index.html.erb within layouts/application (1.2ms)
+  Rendered shared/_header.html.erb (0.4ms)
+  [1m[35mArticle Load (0.1ms)[0m  SELECT "articles".* FROM "articles" ORDER BY released_at DESC LIMIT 5
+  Rendered shared/_sidebar.html.erb (1.3ms)
+Completed 200 OK in 10.8ms (Views: 9.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-29 23:26:23 +0900
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2014-06-29 23:26:23 +0900
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-29 23:26:23 +0900
+Served asset /normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-06-29 23:26:23 +0900
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-06-29 23:26:23 +0900
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/table.css?body=1" for 127.0.0.1 at 2014-06-29 23:26:23 +0900
+Served asset /table.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/top.css?body=1" for 127.0.0.1 at 2014-06-29 23:26:23 +0900
+Served asset /top.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normailze.css" for 127.0.0.1 at 2014-06-29 23:26:23 +0900
+Served asset /normailze.css - 404 Not Found (1ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/normailze.css"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-29 23:26:23 +0900
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-29 23:26:23 +0900
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-06-29 23:26:23 +0900
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-29 23:26:23 +0900
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-06-29 23:26:23 +0900
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/top.js?body=1" for 127.0.0.1 at 2014-06-29 23:26:23 +0900
+Served asset /top.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-29 23:26:23 +0900
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.gif" for 127.0.0.1 at 2014-06-29 23:26:23 +0900
+Served asset /logo.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/01.jpg" for 127.0.0.1 at 2014-06-29 23:26:23 +0900
+Served asset /01.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/02.jpg" for 127.0.0.1 at 2014-06-29 23:26:23 +0900
+Served asset /02.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/03.jpg" for 127.0.0.1 at 2014-06-29 23:26:23 +0900
+Served asset /03.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/04.jpg" for 127.0.0.1 at 2014-06-29 23:26:23 +0900
+Served asset /04.jpg - 304 Not Modified (2ms)
+
+
+Started GET "/assets/05.jpg" for 127.0.0.1 at 2014-06-29 23:26:23 +0900
+Served asset /05.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/06.jpg" for 127.0.0.1 at 2014-06-29 23:26:23 +0900
+Served asset /06.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/info09.png" for 127.0.0.1 at 2014-06-29 23:26:23 +0900
+Served asset /info09.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/info01.png" for 127.0.0.1 at 2014-06-29 23:26:23 +0900
+Served asset /info01.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/info02.png" for 127.0.0.1 at 2014-06-29 23:26:23 +0900
+Served asset /info02.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/info04.png" for 127.0.0.1 at 2014-06-29 23:26:23 +0900
+Served asset /info04.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/info06.png" for 127.0.0.1 at 2014-06-29 23:26:23 +0900
+Served asset /info06.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/info05.png" for 127.0.0.1 at 2014-06-29 23:26:23 +0900
+Served asset /info05.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/info03.png" for 127.0.0.1 at 2014-06-29 23:26:23 +0900
+Served asset /info03.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/info07.png" for 127.0.0.1 at 2014-06-29 23:26:23 +0900
+Served asset /info07.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg_body.gif" for 127.0.0.1 at 2014-06-29 23:26:23 +0900
+Served asset /bg_body.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/info08.png" for 127.0.0.1 at 2014-06-29 23:26:23 +0900
+Served asset /info08.png - 304 Not Modified (0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2014-06-29 23:26:26 +0900
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "articles" 
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT "articles".* FROM "articles" ORDER BY released_at DESC[0m
+  Rendered articles/index.html.erb within layouts/application (21.6ms)
+  Rendered shared/_header.html.erb (0.3ms)
+  [1m[35mArticle Load (0.1ms)[0m  SELECT "articles".* FROM "articles" ORDER BY released_at DESC LIMIT 5
+  Rendered shared/_sidebar.html.erb (1.3ms)
+Completed 200 OK in 31.1ms (Views: 29.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-29 23:26:26 +0900
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-29 23:26:26 +0900
+Served asset /normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-06-29 23:26:26 +0900
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/table.css?body=1" for 127.0.0.1 at 2014-06-29 23:26:26 +0900
+Served asset /table.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-06-29 23:26:26 +0900
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2014-06-29 23:26:26 +0900
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/top.css?body=1" for 127.0.0.1 at 2014-06-29 23:26:26 +0900
+Served asset /top.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normailze.css" for 127.0.0.1 at 2014-06-29 23:26:26 +0900
+Served asset /normailze.css - 404 Not Found (1ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/normailze.css"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-29 23:26:26 +0900
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-29 23:26:26 +0900
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-06-29 23:26:26 +0900
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-29 23:26:26 +0900
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-06-29 23:26:26 +0900
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/top.js?body=1" for 127.0.0.1 at 2014-06-29 23:26:26 +0900
+Served asset /top.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.gif" for 127.0.0.1 at 2014-06-29 23:26:26 +0900
+Served asset /logo.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-29 23:26:26 +0900
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/articles/5" for 127.0.0.1 at 2014-06-29 23:26:30 +0900
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1  [["id", "5"]]
+  Rendered articles/show.html.erb within layouts/application (0.2ms)
+  Rendered shared/_header.html.erb (0.6ms)
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT "articles".* FROM "articles" ORDER BY released_at DESC LIMIT 5[0m
+  Rendered shared/_sidebar.html.erb (1.9ms)
+Completed 200 OK in 12.7ms (Views: 9.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/normailze.css" for 127.0.0.1 at 2014-06-29 23:26:30 +0900
+Served asset /normailze.css - 404 Not Found (1ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/normailze.css"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-06-29 23:26:30 +0900
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2014-06-29 23:26:30 +0900
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-29 23:26:30 +0900
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-29 23:26:30 +0900
+Served asset /normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-06-29 23:26:30 +0900
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/table.css?body=1" for 127.0.0.1 at 2014-06-29 23:26:30 +0900
+Served asset /table.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/top.css?body=1" for 127.0.0.1 at 2014-06-29 23:26:30 +0900
+Served asset /top.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-29 23:26:30 +0900
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-29 23:26:30 +0900
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-06-29 23:26:30 +0900
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-29 23:26:30 +0900
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-06-29 23:26:30 +0900
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/top.js?body=1" for 127.0.0.1 at 2014-06-29 23:26:30 +0900
+Served asset /top.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-29 23:26:30 +0900
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.gif" for 127.0.0.1 at 2014-06-29 23:26:30 +0900
+Served asset /logo.gif - 304 Not Modified (0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2014-06-29 23:26:32 +0900
+Processing by ArticlesController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "articles" [0m
+  [1m[35mArticle Load (0.1ms)[0m  SELECT "articles".* FROM "articles" ORDER BY released_at DESC
+  Rendered articles/index.html.erb within layouts/application (2.0ms)
+  Rendered shared/_header.html.erb (0.3ms)
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT "articles".* FROM "articles" ORDER BY released_at DESC LIMIT 5[0m
+  Rendered shared/_sidebar.html.erb (1.2ms)
+Completed 200 OK in 11.7ms (Views: 10.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/normailze.css" for 127.0.0.1 at 2014-06-29 23:26:32 +0900
+Served asset /normailze.css - 404 Not Found (1ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/normailze.css"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-06-29 23:26:32 +0900
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-29 23:26:32 +0900
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-29 23:26:32 +0900
+Served asset /normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2014-06-29 23:26:32 +0900
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-06-29 23:26:32 +0900
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/table.css?body=1" for 127.0.0.1 at 2014-06-29 23:26:32 +0900
+Served asset /table.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/top.css?body=1" for 127.0.0.1 at 2014-06-29 23:26:32 +0900
+Served asset /top.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-29 23:26:32 +0900
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-29 23:26:32 +0900
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-06-29 23:26:32 +0900
+Served asset /articles.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-29 23:26:32 +0900
+Served asset /main.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-06-29 23:26:32 +0900
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/top.js?body=1" for 127.0.0.1 at 2014-06-29 23:26:32 +0900
+Served asset /top.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-29 23:26:32 +0900
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.gif" for 127.0.0.1 at 2014-06-29 23:26:32 +0900
+Served asset /logo.gif - 304 Not Modified (0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2014-06-29 23:26:35 +0900
+Processing by ArticlesController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "articles" [0m
+  [1m[35mArticle Load (0.1ms)[0m  SELECT "articles".* FROM "articles" ORDER BY released_at DESC
+  Rendered articles/index.html.erb within layouts/application (2.2ms)
+  Rendered shared/_header.html.erb (0.6ms)
+  [1m[36mArticle Load (0.3ms)[0m  [1mSELECT "articles".* FROM "articles" ORDER BY released_at DESC LIMIT 5[0m
+  Rendered shared/_sidebar.html.erb (1.6ms)
+Completed 200 OK in 16.0ms (Views: 14.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/normailze.css" for 127.0.0.1 at 2014-06-29 23:26:35 +0900
+Served asset /normailze.css - 404 Not Found (2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/normailze.css"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-06-29 23:26:35 +0900
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-29 23:26:35 +0900
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2014-06-29 23:26:35 +0900
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-29 23:26:35 +0900
+Served asset /normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-06-29 23:26:35 +0900
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/table.css?body=1" for 127.0.0.1 at 2014-06-29 23:26:35 +0900
+Served asset /table.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/top.css?body=1" for 127.0.0.1 at 2014-06-29 23:26:35 +0900
+Served asset /top.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-29 23:26:35 +0900
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-29 23:26:35 +0900
+Served asset /jquery_ujs.js - 304 Not Modified (19ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-06-29 23:26:35 +0900
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-29 23:26:35 +0900
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-06-29 23:26:35 +0900
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/top.js?body=1" for 127.0.0.1 at 2014-06-29 23:26:35 +0900
+Served asset /top.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-29 23:26:35 +0900
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.gif" for 127.0.0.1 at 2014-06-29 23:26:35 +0900
+Served asset /logo.gif - 304 Not Modified (0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2014-06-29 23:30:50 +0900
+Processing by ArticlesController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+ERROR: compiling _app_views_articles_index_html_erb___2960200017791957968_70251678551020 RAISED /home/negishi/Desktop/BikeHpRails/app/views/articles/index.html.erb:14: syntax error, unexpected keyword_ensure, expecting keyword_end
+/home/negishi/Desktop/BikeHpRails/app/views/articles/index.html.erb:16: syntax error, unexpected $end, expecting keyword_end
+Function body:           def _app_views_articles_index_html_erb___2960200017791957968_70251678551020(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "articles/index";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('<div id="main">
+'); @page_title = "記事一覧" 
+@output_buffer.safe_concat('<h2>');@output_buffer.append= ( @page_title );@output_buffer.safe_concat('</h2>
+<h3>');@output_buffer.append= ( link_to "新規作成", new_article_path );@output_buffer.safe_concat('</h3>
+'); if @current_user 
+ if @articles.present? 
+ @articles.each do |article| 
+@output_buffer.safe_concat('	<h2>');@output_buffer.append= ( article.title );@output_buffer.safe_concat('</h2>
+	<p>');@output_buffer.append= ( truncate(article.body, length: 80) );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('	');@output_buffer.append= ( link_to "Read More", article_path(article) );@output_buffer.safe_concat('</p>
+'); end 
+@output_buffer.safe_concat('
+</div>');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_view/template.rb:297:in `module_eval'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_view/template.rb:297:in `compile'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_view/template.rb:244:in `block in compile!'
+<internal:prelude>:10:in `synchronize'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_view/template.rb:232:in `compile!'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_view/template.rb:144:in `block in render'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.16/lib/active_support/notifications.rb:125:in `instrument'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_view/template.rb:143:in `render'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.16/lib/active_support/notifications.rb:123:in `block in instrument'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.16/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.16/lib/active_support/notifications.rb:123:in `instrument'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_view/renderer/template_renderer.rb:18:in `render'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_view/renderer/renderer.rb:17:in `render'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/abstract_controller/rendering.rb:110:in `_render_template'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/abstract_controller/rendering.rb:88:in `render'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_controller/metal/rendering.rb:16:in `render'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.16/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.16/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/activerecord-3.2.16/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/abstract_controller/base.rb:167:in `process_action'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.16/lib/active_support/callbacks.rb:425:in `_run__4201648378081971720__process_action__4160337596302122429__callbacks'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.16/lib/active_support/callbacks.rb:405:in `__run_callback'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.16/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.16/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.16/lib/active_support/notifications.rb:123:in `block in instrument'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.16/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.16/lib/active_support/notifications.rb:123:in `instrument'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/activerecord-3.2.16/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/abstract_controller/base.rb:121:in `process'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/abstract_controller/rendering.rb:45:in `process'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_controller/metal.rb:203:in `dispatch'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_controller/metal.rb:246:in `block in action'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_dispatch/routing/route_set.rb:73:in `call'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_dispatch/routing/route_set.rb:36:in `call'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/journey-1.0.4/lib/journey/router.rb:56:in `each'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/journey-1.0.4/lib/journey/router.rb:56:in `call'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_dispatch/routing/route_set.rb:608:in `call'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/omniauth-1.2.1/lib/omniauth/strategy.rb:186:in `call!'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/omniauth-1.2.1/lib/omniauth/strategy.rb:164:in `call'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/omniauth-1.2.1/lib/omniauth/builder.rb:59:in `call'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/etag.rb:23:in `call'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/conditionalget.rb:25:in `call'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_dispatch/middleware/head.rb:14:in `call'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:210:in `context'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:205:in `call'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_dispatch/middleware/cookies.rb:341:in `call'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/activerecord-3.2.16/lib/active_record/query_cache.rb:64:in `call'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/activerecord-3.2.16/lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.16/lib/active_support/callbacks.rb:405:in `_run__3736422687511777895__call__3926259802156172949__callbacks'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.16/lib/active_support/callbacks.rb:405:in `__run_callback'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.16/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.16/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.16/lib/rails/rack/logger.rb:32:in `call_app'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.16/lib/rails/rack/logger.rb:16:in `block in call'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.16/lib/active_support/tagged_logging.rb:22:in `tagged'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.16/lib/rails/rack/logger.rb:16:in `call'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/methodoverride.rb:21:in `call'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/runtime.rb:17:in `call'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.16/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/lock.rb:15:in `call'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_dispatch/middleware/static.rb:63:in `call'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.16/lib/rails/engine.rb:484:in `call'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.16/lib/rails/application.rb:231:in `call'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/content_length.rb:14:in `call'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.16/lib/rails/rack/log_tailer.rb:17:in `call'
+/home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/handler/webrick.rb:59:in `service'
+/home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+/home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+/home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+  Rendered articles/index.html.erb within layouts/application (22.5ms)
+Completed 500 Internal Server Error in 24.3ms
+
+ActionView::Template::Error (/home/negishi/Desktop/BikeHpRails/app/views/articles/index.html.erb:14: syntax error, unexpected keyword_ensure, expecting keyword_end
+/home/negishi/Desktop/BikeHpRails/app/views/articles/index.html.erb:16: syntax error, unexpected $end, expecting keyword_end):
+    11: <% end %>
+    12: 
+    13: </div>
+  actionpack (3.2.16) lib/action_view/template.rb:297:in `module_eval'
+  actionpack (3.2.16) lib/action_view/template.rb:297:in `compile'
+  actionpack (3.2.16) lib/action_view/template.rb:244:in `block in compile!'
+  <internal:prelude>:10:in `synchronize'
+  actionpack (3.2.16) lib/action_view/template.rb:232:in `compile!'
+  actionpack (3.2.16) lib/action_view/template.rb:144:in `block in render'
+  activesupport (3.2.16) lib/active_support/notifications.rb:125:in `instrument'
+  actionpack (3.2.16) lib/action_view/template.rb:143:in `render'
+  actionpack (3.2.16) lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+  actionpack (3.2.16) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (3.2.16) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.16) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.16) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.16) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionpack (3.2.16) lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+  actionpack (3.2.16) lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+  actionpack (3.2.16) lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+  actionpack (3.2.16) lib/action_view/renderer/template_renderer.rb:18:in `render'
+  actionpack (3.2.16) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.16) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.16) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.16) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.16) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.16) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.16) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.16) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.16) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.16) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.16) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+  activesupport (3.2.16) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.16) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.16) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.16) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.16) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.16) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.16) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.16) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.16) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.16) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.16) lib/active_support/callbacks.rb:425:in `_run__4201648378081971720__process_action__4160337596302122429__callbacks'
+  activesupport (3.2.16) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.16) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.16) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.16) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.16) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.16) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.16) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.16) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.16) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.16) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.16) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.16) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.16) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.16) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.16) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.16) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.16) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.16) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.16) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.16) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.16) lib/action_dispatch/routing/route_set.rb:608:in `call'
+  omniauth (1.2.1) lib/omniauth/strategy.rb:186:in `call!'
+  omniauth (1.2.1) lib/omniauth/strategy.rb:164:in `call'
+  omniauth (1.2.1) lib/omniauth/builder.rb:59:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.16) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.16) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.16) lib/active_support/callbacks.rb:405:in `_run__3736422687511777895__call__3926259802156172949__callbacks'
+  activesupport (3.2.16) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.16) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.16) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.16) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.3ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2014-06-29 23:32:23 +0900
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "articles" 
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT "articles".* FROM "articles" ORDER BY released_at DESC[0m
+  Rendered articles/index.html.erb within layouts/application (2.1ms)
+  Rendered shared/_header.html.erb (0.4ms)
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles" ORDER BY released_at DESC LIMIT 5
+  Rendered shared/_sidebar.html.erb (1.4ms)
+Completed 200 OK in 25.7ms (Views: 24.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-29 23:32:23 +0900
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2014-06-29 23:32:23 +0900
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-29 23:32:23 +0900
+Served asset /normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-06-29 23:32:23 +0900
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-06-29 23:32:23 +0900
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/table.css?body=1" for 127.0.0.1 at 2014-06-29 23:32:23 +0900
+Served asset /table.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/top.css?body=1" for 127.0.0.1 at 2014-06-29 23:32:23 +0900
+Served asset /top.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normailze.css" for 127.0.0.1 at 2014-06-29 23:32:23 +0900
+Served asset /normailze.css - 404 Not Found (1ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/normailze.css"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-29 23:32:23 +0900
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-29 23:32:23 +0900
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-06-29 23:32:23 +0900
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-29 23:32:23 +0900
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-06-29 23:32:23 +0900
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/top.js?body=1" for 127.0.0.1 at 2014-06-29 23:32:23 +0900
+Served asset /top.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-29 23:32:23 +0900
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.gif" for 127.0.0.1 at 2014-06-29 23:32:23 +0900
+Served asset /logo.gif - 304 Not Modified (0ms)
+
+
+Started GET "/articles/5" for 127.0.0.1 at 2014-06-29 23:32:26 +0900
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mArticle Load (0.1ms)[0m  SELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1  [["id", "5"]]
+  Rendered articles/show.html.erb within layouts/application (0.0ms)
+  Rendered shared/_header.html.erb (0.5ms)
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT "articles".* FROM "articles" ORDER BY released_at DESC LIMIT 5[0m
+  Rendered shared/_sidebar.html.erb (1.3ms)
+Completed 200 OK in 12.3ms (Views: 9.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-29 23:32:26 +0900
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-06-29 23:32:26 +0900
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2014-06-29 23:32:26 +0900
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-29 23:32:26 +0900
+Served asset /normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-06-29 23:32:26 +0900
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/table.css?body=1" for 127.0.0.1 at 2014-06-29 23:32:26 +0900
+Served asset /table.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/top.css?body=1" for 127.0.0.1 at 2014-06-29 23:32:26 +0900
+Served asset /top.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normailze.css" for 127.0.0.1 at 2014-06-29 23:32:26 +0900
+Served asset /normailze.css - 404 Not Found (1ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/normailze.css"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-29 23:32:26 +0900
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-29 23:32:26 +0900
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-06-29 23:32:26 +0900
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-29 23:32:26 +0900
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-06-29 23:32:26 +0900
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/top.js?body=1" for 127.0.0.1 at 2014-06-29 23:32:26 +0900
+Served asset /top.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-29 23:32:26 +0900
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.gif" for 127.0.0.1 at 2014-06-29 23:32:26 +0900
+Served asset /logo.gif - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-29 23:32:53 +0900
+Processing by TopController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered top/index.html.erb within layouts/application (2.3ms)
+  Rendered shared/_header.html.erb (0.4ms)
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT "articles".* FROM "articles" ORDER BY released_at DESC LIMIT 5[0m
+  Rendered shared/_sidebar.html.erb (1.3ms)
+Completed 200 OK in 29.2ms (Views: 27.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-29 23:32:53 +0900
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/table.css?body=1" for 127.0.0.1 at 2014-06-29 23:32:53 +0900
+Served asset /table.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-06-29 23:32:53 +0900
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-06-29 23:32:53 +0900
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-29 23:32:53 +0900
+Served asset /normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2014-06-29 23:32:53 +0900
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normailze.css" for 127.0.0.1 at 2014-06-29 23:32:53 +0900
+Served asset /normailze.css - 404 Not Found (1ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/normailze.css"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/assets/top.css?body=1" for 127.0.0.1 at 2014-06-29 23:32:53 +0900
+Served asset /top.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-29 23:32:53 +0900
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-29 23:32:53 +0900
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-06-29 23:32:53 +0900
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-29 23:32:53 +0900
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-06-29 23:32:53 +0900
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/top.js?body=1" for 127.0.0.1 at 2014-06-29 23:32:53 +0900
+Served asset /top.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-29 23:32:53 +0900
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/logo.gif" for 127.0.0.1 at 2014-06-29 23:32:53 +0900
+Served asset /logo.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/01.jpg" for 127.0.0.1 at 2014-06-29 23:32:53 +0900
+Served asset /01.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/02.jpg" for 127.0.0.1 at 2014-06-29 23:32:53 +0900
+Served asset /02.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/03.jpg" for 127.0.0.1 at 2014-06-29 23:32:53 +0900
+Served asset /03.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/04.jpg" for 127.0.0.1 at 2014-06-29 23:32:53 +0900
+Served asset /04.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/05.jpg" for 127.0.0.1 at 2014-06-29 23:32:53 +0900
+Served asset /05.jpg - 304 Not Modified (3ms)
+
+
+Started GET "/assets/06.jpg" for 127.0.0.1 at 2014-06-29 23:32:53 +0900
+Served asset /06.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/info01.png" for 127.0.0.1 at 2014-06-29 23:32:53 +0900
+Served asset /info01.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/info02.png" for 127.0.0.1 at 2014-06-29 23:32:53 +0900
+Served asset /info02.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/info03.png" for 127.0.0.1 at 2014-06-29 23:32:53 +0900
+Served asset /info03.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/info04.png" for 127.0.0.1 at 2014-06-29 23:32:53 +0900
+Served asset /info04.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/info06.png" for 127.0.0.1 at 2014-06-29 23:32:53 +0900
+Served asset /info06.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/info07.png" for 127.0.0.1 at 2014-06-29 23:32:53 +0900
+Served asset /info07.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/info08.png" for 127.0.0.1 at 2014-06-29 23:32:53 +0900
+Served asset /info08.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/info09.png" for 127.0.0.1 at 2014-06-29 23:32:53 +0900
+Served asset /info09.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/info05.png" for 127.0.0.1 at 2014-06-29 23:32:53 +0900
+Served asset /info05.png - 304 Not Modified (0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2014-06-29 23:33:03 +0900
+Processing by ArticlesController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "articles" [0m
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles" ORDER BY released_at DESC
+  Rendered articles/index.html.erb within layouts/application (2.9ms)
+  Rendered shared/_header.html.erb (0.6ms)
+  [1m[36mArticle Load (0.3ms)[0m  [1mSELECT "articles".* FROM "articles" ORDER BY released_at DESC LIMIT 5[0m
+  Rendered shared/_sidebar.html.erb (2.5ms)
+Completed 200 OK in 15.8ms (Views: 13.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-29 23:33:03 +0900
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-06-29 23:33:03 +0900
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-06-29 23:33:03 +0900
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2014-06-29 23:33:03 +0900
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/table.css?body=1" for 127.0.0.1 at 2014-06-29 23:33:03 +0900
+Served asset /table.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-29 23:33:03 +0900
+Served asset /normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/top.css?body=1" for 127.0.0.1 at 2014-06-29 23:33:03 +0900
+Served asset /top.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normailze.css" for 127.0.0.1 at 2014-06-29 23:33:03 +0900
+Served asset /normailze.css - 404 Not Found (1ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/normailze.css"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-29 23:33:03 +0900
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-29 23:33:03 +0900
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-06-29 23:33:03 +0900
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-29 23:33:03 +0900
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/top.js?body=1" for 127.0.0.1 at 2014-06-29 23:33:03 +0900
+Served asset /top.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-06-29 23:33:03 +0900
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-29 23:33:03 +0900
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.gif" for 127.0.0.1 at 2014-06-29 23:33:03 +0900
+Served asset /logo.gif - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-29 23:33:05 +0900
+Processing by TopController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered top/index.html.erb within layouts/application (2.2ms)
+  Rendered shared/_header.html.erb (0.4ms)
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT "articles".* FROM "articles" ORDER BY released_at DESC LIMIT 5[0m
+  Rendered shared/_sidebar.html.erb (1.3ms)
+Completed 200 OK in 15.0ms (Views: 13.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-29 23:33:05 +0900
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/table.css?body=1" for 127.0.0.1 at 2014-06-29 23:33:05 +0900
+Served asset /table.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-06-29 23:33:05 +0900
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-29 23:33:05 +0900
+Served asset /normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2014-06-29 23:33:05 +0900
+Served asset /base.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-06-29 23:33:05 +0900
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/top.css?body=1" for 127.0.0.1 at 2014-06-29 23:33:05 +0900
+Served asset /top.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normailze.css" for 127.0.0.1 at 2014-06-29 23:33:05 +0900
+Served asset /normailze.css - 404 Not Found (1ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/normailze.css"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-29 23:33:05 +0900
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-29 23:33:05 +0900
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-06-29 23:33:05 +0900
+Served asset /articles.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-29 23:33:05 +0900
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-06-29 23:33:05 +0900
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/top.js?body=1" for 127.0.0.1 at 2014-06-29 23:33:05 +0900
+Served asset /top.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-29 23:33:05 +0900
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/logo.gif" for 127.0.0.1 at 2014-06-29 23:33:05 +0900
+Served asset /logo.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/01.jpg" for 127.0.0.1 at 2014-06-29 23:33:05 +0900
+Served asset /01.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/02.jpg" for 127.0.0.1 at 2014-06-29 23:33:05 +0900
+Served asset /02.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/03.jpg" for 127.0.0.1 at 2014-06-29 23:33:05 +0900
+Served asset /03.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/04.jpg" for 127.0.0.1 at 2014-06-29 23:33:05 +0900
+Served asset /04.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/05.jpg" for 127.0.0.1 at 2014-06-29 23:33:05 +0900
+Served asset /05.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/06.jpg" for 127.0.0.1 at 2014-06-29 23:33:05 +0900
+Served asset /06.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/info03.png" for 127.0.0.1 at 2014-06-29 23:33:05 +0900
+Served asset /info03.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/info01.png" for 127.0.0.1 at 2014-06-29 23:33:05 +0900
+Served asset /info01.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/info02.png" for 127.0.0.1 at 2014-06-29 23:33:05 +0900
+Served asset /info02.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/info05.png" for 127.0.0.1 at 2014-06-29 23:33:05 +0900
+Served asset /info05.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/info06.png" for 127.0.0.1 at 2014-06-29 23:33:05 +0900
+Served asset /info06.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/info07.png" for 127.0.0.1 at 2014-06-29 23:33:05 +0900
+Served asset /info07.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/info09.png" for 127.0.0.1 at 2014-06-29 23:33:05 +0900
+Served asset /info09.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/info04.png" for 127.0.0.1 at 2014-06-29 23:33:05 +0900
+Served asset /info04.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/info08.png" for 127.0.0.1 at 2014-06-29 23:33:05 +0900
+Served asset /info08.png - 304 Not Modified (0ms)
+
+
+Started GET "/articles/3" for 127.0.0.1 at 2014-06-29 23:33:14 +0900
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mArticle Load (0.0ms)[0m  [1mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1[0m  [["id", "3"]]
+  Rendered articles/show.html.erb within layouts/application (0.0ms)
+  Rendered shared/_header.html.erb (0.4ms)
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles" ORDER BY released_at DESC LIMIT 5
+  Rendered shared/_sidebar.html.erb (1.4ms)
+Completed 200 OK in 26.9ms (Views: 25.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2014-06-29 23:33:14 +0900
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-06-29 23:33:14 +0900
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-29 23:33:14 +0900
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-06-29 23:33:14 +0900
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-29 23:33:14 +0900
+Served asset /normalize.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/table.css?body=1" for 127.0.0.1 at 2014-06-29 23:33:14 +0900
+Served asset /table.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/top.css?body=1" for 127.0.0.1 at 2014-06-29 23:33:14 +0900
+Served asset /top.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normailze.css" for 127.0.0.1 at 2014-06-29 23:33:14 +0900
+Served asset /normailze.css - 404 Not Found (1ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/normailze.css"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-29 23:33:14 +0900
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-29 23:33:14 +0900
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-06-29 23:33:14 +0900
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-29 23:33:14 +0900
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-06-29 23:33:14 +0900
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/top.js?body=1" for 127.0.0.1 at 2014-06-29 23:33:14 +0900
+Served asset /top.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-29 23:33:14 +0900
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.gif" for 127.0.0.1 at 2014-06-29 23:33:14 +0900
+Served asset /logo.gif - 304 Not Modified (0ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2014-06-29 23:33:16 +0900
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mArticle Load (0.0ms)[0m  SELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered articles/show.html.erb within layouts/application (0.0ms)
+  Rendered shared/_header.html.erb (0.6ms)
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT "articles".* FROM "articles" ORDER BY released_at DESC LIMIT 5[0m
+  Rendered shared/_sidebar.html.erb (1.4ms)
+Completed 200 OK in 12.8ms (Views: 11.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-29 23:33:16 +0900
+Served asset /application.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-06-29 23:33:16 +0900
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2014-06-29 23:33:16 +0900
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-06-29 23:33:16 +0900
+Served asset /sessions.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/table.css?body=1" for 127.0.0.1 at 2014-06-29 23:33:16 +0900
+Served asset /table.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-29 23:33:16 +0900
+Served asset /normalize.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/top.css?body=1" for 127.0.0.1 at 2014-06-29 23:33:16 +0900
+Served asset /top.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normailze.css" for 127.0.0.1 at 2014-06-29 23:33:16 +0900
+Served asset /normailze.css - 404 Not Found (2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/normailze.css"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-29 23:33:16 +0900
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-29 23:33:16 +0900
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-06-29 23:33:16 +0900
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-29 23:33:16 +0900
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-06-29 23:33:16 +0900
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/top.js?body=1" for 127.0.0.1 at 2014-06-29 23:33:16 +0900
+Served asset /top.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-29 23:33:16 +0900
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.gif" for 127.0.0.1 at 2014-06-29 23:33:16 +0900
+Served asset /logo.gif - 304 Not Modified (0ms)
+
+
+Started GET "/articles/5" for 127.0.0.1 at 2014-06-29 23:33:17 +0900
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1[0m  [["id", "5"]]
+  Rendered articles/show.html.erb within layouts/application (0.0ms)
+  Rendered shared/_header.html.erb (0.9ms)
+  [1m[35mArticle Load (0.4ms)[0m  SELECT "articles".* FROM "articles" ORDER BY released_at DESC LIMIT 5
+  Rendered shared/_sidebar.html.erb (3.2ms)
+Completed 200 OK in 16.6ms (Views: 14.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-29 23:33:17 +0900
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2014-06-29 23:33:17 +0900
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-06-29 23:33:17 +0900
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-29 23:33:17 +0900
+Served asset /normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-06-29 23:33:17 +0900
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/table.css?body=1" for 127.0.0.1 at 2014-06-29 23:33:17 +0900
+Served asset /table.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normailze.css" for 127.0.0.1 at 2014-06-29 23:33:17 +0900
+Served asset /normailze.css - 404 Not Found (1ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/normailze.css"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/assets/top.css?body=1" for 127.0.0.1 at 2014-06-29 23:33:17 +0900
+Served asset /top.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-29 23:33:17 +0900
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-29 23:33:17 +0900
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-06-29 23:33:17 +0900
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-29 23:33:17 +0900
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-06-29 23:33:17 +0900
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/top.js?body=1" for 127.0.0.1 at 2014-06-29 23:33:17 +0900
+Served asset /top.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-29 23:33:17 +0900
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/logo.gif" for 127.0.0.1 at 2014-06-29 23:33:17 +0900
+Served asset /logo.gif - 304 Not Modified (0ms)
+
+
+Started GET "/signout" for 127.0.0.1 at 2014-06-29 23:33:18 +0900
+Processing by SessionsController#destroy as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Redirected to http://localhost:3000/?notice=Signed+out%21
+Completed 302 Found in 2.3ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/?notice=Signed+out%21" for 127.0.0.1 at 2014-06-29 23:33:18 +0900
+Processing by TopController#index as HTML
+  Parameters: {"notice"=>"Signed out!"}
+  Rendered top/index.html.erb within layouts/application (1.4ms)
+  Rendered shared/_header.html.erb (0.0ms)
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles" WHERE "articles"."member_only" = 'f' ORDER BY released_at DESC LIMIT 5
+  Rendered shared/_sidebar.html.erb (1.6ms)
+Completed 200 OK in 17.4ms (Views: 17.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2014-06-29 23:33:18 +0900
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-29 23:33:18 +0900
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-06-29 23:33:18 +0900
+Served asset /articles.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-06-29 23:33:18 +0900
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-29 23:33:18 +0900
+Served asset /normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/table.css?body=1" for 127.0.0.1 at 2014-06-29 23:33:18 +0900
+Served asset /table.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/top.css?body=1" for 127.0.0.1 at 2014-06-29 23:33:18 +0900
+Served asset /top.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normailze.css" for 127.0.0.1 at 2014-06-29 23:33:18 +0900
+Served asset /normailze.css - 404 Not Found (1ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/normailze.css"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-29 23:33:18 +0900
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-29 23:33:18 +0900
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-06-29 23:33:18 +0900
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-29 23:33:18 +0900
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-06-29 23:33:18 +0900
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/top.js?body=1" for 127.0.0.1 at 2014-06-29 23:33:18 +0900
+Served asset /top.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-29 23:33:18 +0900
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/logo.gif" for 127.0.0.1 at 2014-06-29 23:33:18 +0900
+Served asset /logo.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/01.jpg" for 127.0.0.1 at 2014-06-29 23:33:18 +0900
+Served asset /01.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/02.jpg" for 127.0.0.1 at 2014-06-29 23:33:18 +0900
+Served asset /02.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/03.jpg" for 127.0.0.1 at 2014-06-29 23:33:18 +0900
+Served asset /03.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/04.jpg" for 127.0.0.1 at 2014-06-29 23:33:18 +0900
+Served asset /04.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/05.jpg" for 127.0.0.1 at 2014-06-29 23:33:18 +0900
+Served asset /05.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/06.jpg" for 127.0.0.1 at 2014-06-29 23:33:18 +0900
+Served asset /06.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/info01.png" for 127.0.0.1 at 2014-06-29 23:33:18 +0900
+Served asset /info01.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/info05.png" for 127.0.0.1 at 2014-06-29 23:33:18 +0900
+Served asset /info05.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/info02.png" for 127.0.0.1 at 2014-06-29 23:33:18 +0900
+Served asset /info02.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/info09.png" for 127.0.0.1 at 2014-06-29 23:33:18 +0900
+Served asset /info09.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/info08.png" for 127.0.0.1 at 2014-06-29 23:33:18 +0900
+Served asset /info08.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/info06.png" for 127.0.0.1 at 2014-06-29 23:33:18 +0900
+Served asset /info06.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/info04.png" for 127.0.0.1 at 2014-06-29 23:33:18 +0900
+Served asset /info04.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/info07.png" for 127.0.0.1 at 2014-06-29 23:33:18 +0900
+Served asset /info07.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/info03.png" for 127.0.0.1 at 2014-06-29 23:33:18 +0900
+Served asset /info03.png - 304 Not Modified (0ms)
+
+
+Started GET "/articles/5" for 127.0.0.1 at 2014-06-29 23:33:20 +0900
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1[0m  [["id", "5"]]
+  Rendered articles/show.html.erb within layouts/application (0.0ms)
+  Rendered shared/_header.html.erb (0.0ms)
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles" WHERE "articles"."member_only" = 'f' ORDER BY released_at DESC LIMIT 5
+  Rendered shared/_sidebar.html.erb (1.7ms)
+Completed 200 OK in 9.0ms (Views: 8.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-29 23:33:20 +0900
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-29 23:33:20 +0900
+Served asset /normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/table.css?body=1" for 127.0.0.1 at 2014-06-29 23:33:20 +0900
+Served asset /table.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2014-06-29 23:33:20 +0900
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-06-29 23:33:20 +0900
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-06-29 23:33:20 +0900
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/top.css?body=1" for 127.0.0.1 at 2014-06-29 23:33:20 +0900
+Served asset /top.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normailze.css" for 127.0.0.1 at 2014-06-29 23:33:20 +0900
+Served asset /normailze.css - 404 Not Found (1ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/normailze.css"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-29 23:33:20 +0900
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-29 23:33:20 +0900
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-06-29 23:33:20 +0900
+Served asset /articles.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-29 23:33:20 +0900
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-06-29 23:33:20 +0900
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/top.js?body=1" for 127.0.0.1 at 2014-06-29 23:33:20 +0900
+Served asset /top.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-29 23:33:20 +0900
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.gif" for 127.0.0.1 at 2014-06-29 23:33:20 +0900
+Served asset /logo.gif - 304 Not Modified (0ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2014-06-29 23:34:12 +0900
+
+
+Started GET "/auth/facebook/callback?code=AQA25sGPsM7UF58Qmfe48TiwSB2nfLLq-bSo15kHxaLgq3J26Utm3fNR6m5z2JuxuPfeoLDareiJhccQ5zXewqD32uhlM7mi9d14xvrq-Uc2wgm3K69CKhmlQFc9Vvn15Rz-IfDe2dg3yKz7s6c9FDfWmBSYVXn2rrdWU8mgevxC_p6gmIT2qOjzrelNraxx86fwgVV1x92OqSbzLhdf_x4FJAdVIvHWP5sPAZnr2_feMoVQGSmKQ5BZhqQ2id_kKaqtNC22Rbj4sVmfn4K0Wwezeib6bgKPlYvklTY81WnqCJkfj4T1YFjbBDkKZ2LRwYk&state=b1f43d0f94ea3907e241e65e245e3d945bf104d272dc967c" for 127.0.0.1 at 2014-06-29 23:34:12 +0900
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQA25sGPsM7UF58Qmfe48TiwSB2nfLLq-bSo15kHxaLgq3J26Utm3fNR6m5z2JuxuPfeoLDareiJhccQ5zXewqD32uhlM7mi9d14xvrq-Uc2wgm3K69CKhmlQFc9Vvn15Rz-IfDe2dg3yKz7s6c9FDfWmBSYVXn2rrdWU8mgevxC_p6gmIT2qOjzrelNraxx86fwgVV1x92OqSbzLhdf_x4FJAdVIvHWP5sPAZnr2_feMoVQGSmKQ5BZhqQ2id_kKaqtNC22Rbj4sVmfn4K0Wwezeib6bgKPlYvklTY81WnqCJkfj4T1YFjbBDkKZ2LRwYk", "state"=>"b1f43d0f94ea3907e241e65e245e3d945bf104d272dc967c", "provider"=>"facebook"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."provider" = 'facebook' AND "users"."uid" = '1452691841646550' LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 2.1ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-29 23:34:14 +0900
+Processing by TopController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered top/index.html.erb within layouts/application (2.3ms)
+  Rendered shared/_header.html.erb (0.4ms)
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT "articles".* FROM "articles" ORDER BY released_at DESC LIMIT 5[0m
+  Rendered shared/_sidebar.html.erb (1.4ms)
+Completed 200 OK in 32.1ms (Views: 31.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-29 23:34:14 +0900
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2014-06-29 23:34:14 +0900
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-06-29 23:34:14 +0900
+Served asset /normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-06-29 23:34:14 +0900
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2014-06-29 23:34:14 +0900
+Served asset /base.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/table.css?body=1" for 127.0.0.1 at 2014-06-29 23:34:14 +0900
+Served asset /table.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normailze.css" for 127.0.0.1 at 2014-06-29 23:34:14 +0900
+Served asset /normailze.css - 404 Not Found (1ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/normailze.css"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/negishi/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/negishi/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/assets/top.css?body=1" for 127.0.0.1 at 2014-06-29 23:34:14 +0900
+Served asset /top.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-29 23:34:14 +0900
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-29 23:34:14 +0900
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/articles.js?body=1" for 127.0.0.1 at 2014-06-29 23:34:14 +0900
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-06-29 23:34:14 +0900
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-06-29 23:34:14 +0900
+Served asset /main.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/top.js?body=1" for 127.0.0.1 at 2014-06-29 23:34:14 +0900
+Served asset /top.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-29 23:34:14 +0900
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/logo.gif" for 127.0.0.1 at 2014-06-29 23:34:14 +0900
+Served asset /logo.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/01.jpg" for 127.0.0.1 at 2014-06-29 23:34:14 +0900
+Served asset /01.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/02.jpg" for 127.0.0.1 at 2014-06-29 23:34:14 +0900
+Served asset /02.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/03.jpg" for 127.0.0.1 at 2014-06-29 23:34:14 +0900
+Served asset /03.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/04.jpg" for 127.0.0.1 at 2014-06-29 23:34:14 +0900
+Served asset /04.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/05.jpg" for 127.0.0.1 at 2014-06-29 23:34:14 +0900
+Served asset /05.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/06.jpg" for 127.0.0.1 at 2014-06-29 23:34:14 +0900
+Served asset /06.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/info02.png" for 127.0.0.1 at 2014-06-29 23:34:14 +0900
+Served asset /info02.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/info01.png" for 127.0.0.1 at 2014-06-29 23:34:14 +0900
+Served asset /info01.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/info03.png" for 127.0.0.1 at 2014-06-29 23:34:14 +0900
+Served asset /info03.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/info04.png" for 127.0.0.1 at 2014-06-29 23:34:14 +0900
+Served asset /info04.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/info05.png" for 127.0.0.1 at 2014-06-29 23:34:14 +0900
+Served asset /info05.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/info06.png" for 127.0.0.1 at 2014-06-29 23:34:14 +0900
+Served asset /info06.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/info09.png" for 127.0.0.1 at 2014-06-29 23:34:14 +0900
+Served asset /info09.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/info08.png" for 127.0.0.1 at 2014-06-29 23:34:14 +0900
+Served asset /info08.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/info07.png" for 127.0.0.1 at 2014-06-29 23:34:14 +0900
+Served asset /info07.png - 304 Not Modified (0ms)

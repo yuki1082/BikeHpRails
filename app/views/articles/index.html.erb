@@ -3,37 +3,14 @@
 <h2><%= @page_title %></h2>
 <h3><%= link_to "新規作成", new_article_path %></h3>
 <% if @current_user %>
-<% if @articles.present? %>
-	<table class="article_table">
-		<tr>
-			<th>タイトル</th>
-			<th>掲載開始日時</th>
-			<th>掲載終了日時</th>
-			<th>メンバーオンリー?</th>
-		</tr>
-		<% @articles.each do |article| %>
-		<tr>
-			<td><%= link_to article.title, article_path(article) %></td>
-			<td><%= article.released_at.strftime("%Y/%m/%d %H:%M")%></td>
-			<% unless article.expired_at %>
-			<td>掲載終了日は設定されていません</td>
-			<% else %>
-			<td><%= article.expired_at %></td>
-			<% end %>
-			<% if article.member_only %>
-			<td>●</td>
-			<% else %>
-			<td></td>
-			<% end %>
-		</tr>		
-
-		<% end %>
-	</table>
-	<% else %>
-	<p>記事がありません</p>
+	<% if @articles.present? %>
+	<% @articles.each do |article| %>
+	<h2><%= article.title %></h2>
+	<p><%= truncate(article.body, length: 80) %>
+	<%= link_to "Read More", article_path(article) %></p>
 	<% end %>
 	<% else %>
-	<p> メンバーじゃねーからみせねーよ！</p>
+	<p>No Article</p>
 	<% end %>
-
+<% end %>
 </div>
